@@ -4,7 +4,7 @@ export default () => {
   const [content, setArticles] = useState<{ articles: { href: string, title: string, date: string, tags: string[], summary: string }[] }>({ articles: [] });
 
   useEffect(() => {
-    fetch(`${window.location.origin}/articles.json`)
+    fetch(`/api/articles`)
       .then(response => response.json())
       .then(data => {
         setArticles(data);
