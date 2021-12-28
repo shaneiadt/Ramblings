@@ -13,29 +13,42 @@ const getPages = async (dir: string) => {
     return pages;
 }
 
-const tree = [];
-const meta = [];
+const dirs = [];
 
 for await (const dirEntry of Deno.readDir('./pages')) {
     if (dirEntry.isDirectory) {
         const pages = await getPages(`./pages/${dirEntry.name}`);
 
-        for (const page of pages) {
-            tree.push(page);
-        }
+        dirs.push({
+            year: dirEntry.name,
+            pages
+        });
     }
 }
 
-for await (const filename of tree) {
-    const decoder = new TextDecoder("utf-8");
-    const markdown = decoder.decode(await Deno.readFile(filename));
-    const markup = Marked.parse(markdown);
-    const summary = markup.content.slice(0, 100);
-    const { title, date, categories, tags } = markup.meta;
+const articlePaths = [];
 
-    meta.push({ href: filename.replace('.md', '').replace('./pages/', ''), title, date, categories, tags, summary });
+for await (const dir of dirs) {
+    const baseFilename = `./public/articles/articles-${dir.year}.json`;
+    const baseMeta = [];
+
+    for await (const filename of dir.pages) {
+        const decoder = new TextDecoder("utf-8");
+        const markdown = decoder.decode(await Deno.readFile(filename));
+        const markup = Marked.parse(markdown);
+        const summary = markup.content.slice(0, 100);
+        const { title, date, categories, tags } = markup.meta;
+
+        baseMeta.push({ href: filename.replace('.md', '').replace('./pages/', ''), title, date, categories, tags, summary });
+    }
+
+    baseMeta.sort((a, b) => b.date - a.date);
+
+    articlePaths.push({ year: dir.year, baseFilename: baseFilename.replace('.', '') });
+
+    writeJsonSync(baseFilename, { articles: baseMeta });
 }
 
-meta.sort((a, b) => b.date - a.date);
+articlePaths.sort((a: any, b: any) => b.year - a.year);
 
-writeJsonSync('./public/articles.json', { articles: meta });
+writeJsonSync('./public/articles.json', { articlePaths });
