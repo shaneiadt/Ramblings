@@ -10,8 +10,17 @@ export const handler: APIHandler = async ({ request, response }) => {
 
     const url = `${referer}/articles.json`;
     const data = await (await fetch(url)).json();
+    const { articlePaths }: { articlePaths: { year: string; baseFilename: string }[] } = data;
 
-    response.json(data);
+    const articles = [];
+
+    for await (const path of articlePaths) {
+      const articleData: { articles: { href: string; title: string; date: string; categories: string[]; tag: string[]; summary: string }[] } = await (await fetch(referer + path.baseFilename.replace('public/', ''))).json();
+
+      articles.push(...articleData.articles);
+    }
+
+    response.json({ articles });
   } catch (error) {
     response.status = 500;
     response.body = 'Issue fetching article json data';
