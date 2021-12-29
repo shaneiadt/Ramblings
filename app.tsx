@@ -20,7 +20,7 @@ export default function App({ Page, pageProps }: { Page: FC, pageProps: Record<s
         <meta name="author" content="Shane O'Moore" />
         <meta name="description" content="Blog and portfolio" />
         <meta name="keywords" content="Developer,JavaScript,CSS,HTML,Software,Programming" />
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
