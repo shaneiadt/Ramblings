@@ -176,7 +176,7 @@ onMount(() => {
 });
 ```
 
-I hope you've just copy & pasted the above, it may look a bit complicated but take some time to read each section and hopefully it'll make a bit more sense. Another option would be to also not and carrying on :laughing:
+I hope you've just copy & pasted the above, it may look a bit complicated but take some time to read each section and hopefully it'll make a bit more sense. Another option would be to also not and carrying on.
 
 One last step is to update our item elements setting their initial x, y position.
 
@@ -320,13 +320,13 @@ function isInBounds(obj1, obj2) {
 </div>
 ```
 
-# Phew! :sweat_smile:
+# Phew!
 
 That was quite a lot...but at the end of all this we should have a little some some like so...
 
 ![Drag and Drop Final](/assets/images/interactjs-and-svelte/drag-and-drop.gif)
 
-Still interested? Checkout the sandbox or github repo :heartpulse:
+Still interested? Checkout the sandbox or github repo.
 
 - CodeSandbox: https://codesandbox.io/s/github/shaneiadt/interactjs-and-svelte
 - Github: https://github.com/shaneiadt/interactjs-and-svelte

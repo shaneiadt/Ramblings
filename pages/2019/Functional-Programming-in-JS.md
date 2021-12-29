@@ -52,13 +52,13 @@ FP mostly relies on **well structured** data **types** such as **Arrays**, **Obj
 
 A little note before we continue, as we know **functions** in JS **are** considered **first class citizens**. Meaning they can be:
 
-### **assigned to a variable** :heavy_check_mark:
+### **assigned to a variable**
 ```javascript
 const func = () => 'BOOM'
 
 console.log(func())
 ```
-### **passed as arguments into other functions** :heavy_check_mark:
+### **passed as arguments into other functions**
 ```javascript
 const speak = (str) => console.log(str)
 
@@ -68,7 +68,7 @@ function doStuff(fn){
 
 doStuff(speak)
 ```
-### **returned by functions** :heavy_check_mark:
+### **returned by functions**
 ```javascript
 const giveMeAFn = () => {
     return (msg) => console.log(msg)
@@ -85,15 +85,15 @@ fn('JS is super sweet!')
 
 - is not **influenced** **by** anything other than the **input parameters** it receives. Passing in the **same** **parameters** will always **result** in the **same output**.
 - does **not** cause any **side-effects** (doesn't change any external or global scope variables)
-- **never changes** any of the **parameters** it is passed in, this data should be considered **immutable**. We can however copy / **clone** any input parameters :thumbsup:
-- should be [referentially transparent](https://en.wikipedia.org/wiki/Referential_transparency)....click the link for a better definition than I could muster :smile:
+- **never changes** any of the **parameters** it is passed in, this data should be considered **immutable**. We can however copy / **clone** any input parameters 👍
+- should be [referentially transparent](https://en.wikipedia.org/wiki/Referential_transparency)....click the link for a better definition than I could muster 😀
 - should only rely on it's **local variable scope**
 
 Following these steps will make our functions easy to test & highly composable. Here is an example of a impure & pure function:
 
-### **impure** :flushed:
+### **impure** 😳
 
-In this example we're mutating a globally scoped variable by pushing a string into the array :sob:
+In this example we're mutating a globally scoped variable by pushing a string into the array 😭
 
 ```javascript
 const names = []
@@ -105,9 +105,9 @@ function addName(n){
 addName('John')
 ```
 
-### **pure** :innocent:
+### **pure**
 
-In this example we're taking in an array & string then returning a brand new array :sunglasses:
+In this example we're taking in an array & string then returning a brand new array😎
 
 ```javascript
 const names = []
@@ -130,13 +130,13 @@ The goal is to **reduce the amount of side-effects** required to make our progra
 
 # Idempotence
 
-What the hell is this craziness??? :fearful:
+What the hell is this craziness???
 
 In simple terms idempotence means when we run the same function with the same parameters multiple times the result will always be the same.
 
 Your functions should not communicate with the outside world & always does what we expect it to do. This makes our code more predictable & becomes a highly useful strategy within distributed & parallel systems.
 
-### **BAD TIME** :poop:
+### **BAD TIME** 💩
 
 This will result in a **different** result every single time!
 
@@ -149,7 +149,7 @@ console.log(badTime(69))
 console.log(badTime(69))
 console.log(badTime(69))
 ```
-### **GOOD TIME** :metal:
+### **GOOD TIME**
 
 This will result in **the same** result every single time!
 
@@ -186,7 +186,7 @@ We mere humans are more declarative creatures, for example if we were to tell ou
 
 1. Buy coffee for me
 
-**FP** helps us be more declarative with our programs. Making them **easier to read** at a high-level :grin:
+**FP** helps us be more declarative with our programs. Making them **easier to read** at a high-level 😁
 
 # Immutability
 
@@ -217,7 +217,7 @@ function clone(obj){
 const clonedObj = clone(obj)
 ```
 
-This makes each function easier to test & never updates global state or causes any side-effects :smirk:
+This makes each function easier to test & never updates global state or causes any side-effects 😏
 
 ...but wait what about memory? Aren't we creating unnecessary variables & filling up our heap?
 
@@ -293,9 +293,9 @@ Like objects, closures as mentioned above can help us maintain some state within
 
 Pretty much if it doesn't exist within the current context go up the scope chain & ask the parent(s).
 
-This can potentially lead to some impure operations if we're not careful. :hear_no_evil:
+This can potentially lead to some impure operations if we're not careful.
 
-# Currying :curry:
+# Currying 🍛
 
 A curried function is simply a **function** that takes **multiple arguments** **one at a time**.
 
@@ -335,7 +335,7 @@ partialMultiplyByTwo(4, 3) // 24
 
 Is a way to store values for use later on. It is a **dynamic programming** approach in an effort to **increase** your programs **speed**. It caches the return value based on the parameters given.
 
-This is another example of utilising a function closure to persist our cached object in the functions local scope :muscle:
+This is another example of utilising a function closure to persist our cached object in the functions local scope.
 
 ```javascript
 function memoization(){
@@ -426,7 +426,7 @@ function titleToUpperCase(item){
 
 Just like most topics when it comes to computer science we shouldn't take a 100% literal approach at all times.
 
-Nothing would ever get done in that case :dizzy_face:
+Nothing would ever get done in that case
 
 **Functional Programming** does promote a more:
  - **Predictable**

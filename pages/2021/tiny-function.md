@@ -11,6 +11,6 @@ Try out this super fast tool for testing out some cloud functions.
 
 [TinyFunction](https://tinyfunction.com/)
 
-No setup required, just write the function and hit the deploy button :thumbsup:
+No setup required, just write the function and hit the deploy button 👍
 
-All functions at the moment are deployed using NodeJS, Python to come soon along with database support :smile:
+All functions at the moment are deployed using NodeJS, Python to come soon along with database support 😀

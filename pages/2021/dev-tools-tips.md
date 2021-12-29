@@ -5,9 +5,10 @@ categories:
   - Blog
 tags:
   - Chrome Dev Tools
+summary: "Here's a short list of tips you can try out when debugging in Chrome Dev Tools that might (hopefully) make your life a little easier 😀"
 ---
 
-Here's a short list of tips you can try out when debugging in Chrome Dev Tools that might (hopefully) make your life a little easier :smile:
+Here's a short list of tips you can try out when debugging in Chrome Dev Tools that might (hopefully) make your life a little easier 😀
 
 ## CSS Overview
 
@@ -49,4 +50,4 @@ Get the previous console window evaluation by running `$_`.
 
 ## Design Mode
 
-This one is pretty fun run `document.designMode="on"` in your console and edit any text as if it's markdown right in the browser. No need for a screenshot with this tip...you'll have to try it out yourself :smile:
+This one is pretty fun run `document.designMode="on"` in your console and edit any text as if it's markdown right in the browser. No need for a screenshot with this tip...you'll have to try it out yourself 😀

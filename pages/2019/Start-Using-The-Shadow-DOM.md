@@ -15,7 +15,7 @@ The **Shadow DOM** was created to **improve encapsulation** of components on the
 
 ![](/assets/images/start-using-the-shadow-dom/facebook-like.jpg)![](/assets/images/start-using-the-shadow-dom/twitter-follow.jpg)
 
-This ensures the styles of the button remain intact when used on other web pages. Yes the Shadow DOM is awesome for **scoping styles** to it's child elements :clap:
+This ensures the styles of the button remain intact when used on other web pages. Yes the Shadow DOM is awesome for **scoping styles** to it's child elements 👏
 
 You can think of the Shadow DOM as a *slimline* version of the full [Document Object Model](https://www.w3.org/TR/WD-DOM/introduction.html) (DOM).
 
@@ -121,7 +121,7 @@ shadow.appendChild(styles);
 
 Pretty cool yeah I know! Our fall-back text is in place just encase the current browser doesn't support the Shadow DOM API.
 
-Here's the complete example we used in this article, why not test it out locally :thumbsup:
+Here's the complete example we used in this article, why not test it out locally 👍
 
 ```html
 <!DOCTYPE html>
@@ -171,6 +171,6 @@ Here's the complete example we used in this article, why not test it out locally
 
 ## Lessons Learned
 
-The Shadow DOM itself is a collection of HTML elements (a tree) which is rendered like any other element. But unlike the DOM, a Shadow DOM Tree requires to be attached to an element within the regular DOM. Without the DOM, we are nothing :bow:
+The Shadow DOM itself is a collection of HTML elements (a tree) which is rendered like any other element. But unlike the DOM, a Shadow DOM Tree requires to be attached to an element within the regular DOM. Without the DOM, we are nothing.
 
-Start creating re-usable web components using the Shadow DOM API today & amaze all that surround you :laughing: :joy:
+Start creating re-usable web components using the Shadow DOM API today & amaze all that surround you.

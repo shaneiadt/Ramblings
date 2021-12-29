@@ -93,7 +93,7 @@ import message from './message'
 console.log(message)
 ```
 
-Now run our bundler again `npm run build` and boom our main.js file has been updated once more. Let's inspect the output as we're only using console.log through the command-line. Run `node dist/main.js` from your project directory & you should see something **Awesome** appear. :sparkles:
+Now run our bundler again `npm run build` and boom our main.js file has been updated once more. Let's inspect the output as we're only using console.log through the command-line. Run `node dist/main.js` from your project directory & you should see something **Awesome** appear. ✨
 
 Our bundler is looking pretty good now, these are just the basics of course. If you fancy diving into some more details around configuring your bundler why not check out the [docs](https://webpack.js.org/concepts/).
 
@@ -101,4 +101,4 @@ In the next article I will be covering **Webpack Dev Server** to improve our dev
 
 **Github Repo**: https://github.com/shaneiadt/webpack-4-beginners
 
-Exciting times I know woop woop! Go forth and bundle my friends :wave:
+Exciting times I know woop woop! Go forth and bundle my friends.

@@ -13,7 +13,7 @@ Let's have a look at some of the most used and also useful `git` commands that w
 
 ## 1. Gitting started
 
-Without initializing over source control the rest of this article would be useless I'm sure you would agree :smile:
+Without initializing over source control the rest of this article would be useless I'm sure you would agree 😀
 
 This will create a hidden `.git` folder which contains all local history.
 
@@ -61,7 +61,7 @@ git add --patch
 git add -p
 ```
 
-This will go through each change in hunks and give you the option to stage, skip or quit. Try it out the next time you're running `add` :thumbsup:
+This will go through each change in hunks and give you the option to stage, skip or quit. Try it out the next time you're running `add` 👍
 
 ## 4. Stay committed
 
@@ -140,4 +140,4 @@ git stash pop
 
 If we think of Git as a swiss army it makes more sense when we consider the amount of ways the tool can be used for different styles of source control.
 
-Sometimes it can be complicated but always remember: Git loves you :heart:
+Sometimes it can be complicated but always remember: Git loves you.

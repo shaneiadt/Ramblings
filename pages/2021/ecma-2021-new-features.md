@@ -33,7 +33,7 @@ const theLottery = 50_450_900.25; // 50,450,900.25
 
 # String.replaceAll()
 
-Sometimes you just want to replace every occurence of a substring but don't want to go messing around with RegEx. Now you can :smile:
+Sometimes you just want to replace every occurence of a substring but don't want to go messing around with RegEx. Now you can 😀
 
 ```javascript
 'the-old-ways-are-best'.replace(/\-/g, ' '); // the old ways are best

@@ -286,4 +286,4 @@ So we have 5 different types of decorators at our disposal:
 - Property decorators
 - Parameter decorators
 
-If you fancy reading more on TypeScript decorators [check this out](https://www.typescriptlang.org/docs/handbook/decorators.html). :thumbsup:
+If you fancy reading more on TypeScript decorators [check this out](https://www.typescriptlang.org/docs/handbook/decorators.html). 👍

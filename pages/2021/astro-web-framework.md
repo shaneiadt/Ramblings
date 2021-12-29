@@ -14,7 +14,7 @@ As it's still in closed beta all we have is this great [Speakeasy Js](https://sp
 
 ## What's interesting about this new thing?
 
-It's upfront and honest there is no re-inventing of wheels more a borrowing old tech ideas sprinkled with some magic...because we all know magic is real & technology is pure magic :smile:
+It's upfront and honest there is no re-inventing of wheels more a borrowing old tech ideas sprinkled with some magic...because we all know magic is real & technology is pure magic 😀
 
 Here's some cool aspects of **Astro**:
 
@@ -25,4 +25,4 @@ Here's some cool aspects of **Astro**:
 - This is a big one....it ships with **NO JAVASCRIPT**! JS component bundles are added on an opt-in basis with some cool ways to lazy-load.
 - It brings components directly into your markdown files akin to [MDX](https://mdxjs.com/).
 
-Definitely worth checking out and expect it to be hitting the shelves sometime in the near future :muscle:
+Definitely worth checking out and expect it to be hitting the shelves sometime in the near future.

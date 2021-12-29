@@ -11,7 +11,7 @@ tags:
 
 Fed up looking for an extension, app or something just to take a ruddy full page screen shot without breaking the bank?
 
-Well have I got a something super cool for you & it's totally **FREE** :smile:
+Well have I got a something super cool for you & it's totally **FREE** 😀
 
 1) Open **Chrome** > **DevTools**
 
@@ -21,4 +21,4 @@ Well have I got a something super cool for you & it's totally **FREE** :smile:
 
 4) It should only take a few seconds & it will auto download to your machine
 
-5) Enjoy :sunglasses:
+5) Enjoy😎

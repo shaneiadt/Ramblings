@@ -13,9 +13,9 @@ tags:
 
 ## But I'm a Frontend Dev
 
-Yes, but without backend servers there would be no front-to-end :laughing:. Having some basic knowledge of relational databases and in particular SQL will always come in handy.
+Yes, but without backend servers there would be no front-to-end. Having some basic knowledge of relational databases and in particular SQL will always come in handy.
 
-First things first, we need a couple of tables to re-jig that brain matter :thinking:
+First things first, we need a couple of tables to re-jig that brain matter.
 
 ## Gimme Them Tables
 
@@ -54,7 +54,7 @@ If you fancy following along all you will need is a local installation of [MySQL
 
 ## Create Them Tables
 
-Let the creation begin :smiling_imp:
+Let the creation begin.
 
 ```SQL
 CREATE TABLE student (
@@ -147,11 +147,11 @@ SET principal_id = 4
 WHERE school_id = 3;
 ```
  
-We now have our tables & data ready for some querying :grin:
+We now have our tables & data ready for some querying 😁
 
 ## **S**imple**Q**uery**L**anguage
 
-Let's start with making some straight forward queries and solving the prompts below :thumbsup:
+Let's start with making some straight forward queries and solving the prompts below 👍
 
 #### **SELECT**
 
@@ -248,6 +248,6 @@ ON teacher.teacher_id = school.principal_id;
 
 The above examples cover most of all the basic / common queries you might run on a database. With these we could create some pretty complex queries, it just takes some practice.
 
-If you're interested in brushing up on your SQL (or if you're a beginner) I would highly recommend watching the [FreeCodeCamp](https://www.freecodecamp.org/) 4+ hour YouTube video....it's totally **FREE**! :sunglasses:
+If you're interested in brushing up on your SQL (or if you're a beginner) I would highly recommend watching the [FreeCodeCamp](https://www.freecodecamp.org/) 4+ hour YouTube video....it's totally **FREE**!😎
 
 https://www.youtube.com/watch?v=HXV3zeQKqGY

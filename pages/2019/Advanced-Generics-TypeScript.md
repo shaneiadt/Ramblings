@@ -6,11 +6,12 @@ categories:
 tags:
   - TypeScript
   - Generics
+summary: "They give us the ability to define a _dynamic type_ & use it within our applications. With the power generics give us we can make our classes & functions highly flexible."
 ---
 
 ## Quick Re-cap on Generics
 
-**TypeScript generics** are pure awesomeo-5000! :space_invader:
+**TypeScript generics** are pure awesomeo-5000!
 
 They give us the ability to define a _dynamic type_ & use it within our applications. With the power generics give us we can make our classes & functions highly flexible.
 
@@ -57,7 +58,7 @@ const strings = new LotsOfAnything<string>(['a', 'b', 'c']);
 const numbers = new LotsOfAnything<number>([1, 2, 3]);
 ```
 
-An awesome example of reusable code :boom:
+An awesome example of reusable code 🤯
 
 Moving on...
 
@@ -72,7 +73,7 @@ const numbers = new LotsOfAnything([1, 2, 3]);
 
 Strange you might think but **TypeScript** is a clever one you see...this is an example of **Type Inference**.
 
-When we pass in an array to the class constructor TypeScript knows it's an array of strings / numbers. It looks at the collection & determines the type for us :grin:
+When we pass in an array to the class constructor TypeScript knows it's an array of strings / numbers. It looks at the collection & determines the type for us 😁
 
 ## Function Generics
 
@@ -92,7 +93,7 @@ function printNumbers(arr: number[]): void {
 }
 ```
 
-We can see some clear code duplication here, but how can we tidy things up?...I'll give you a hint...it rhymes with "**_lemerics_**" :wink:
+We can see some clear code duplication here, but how can we tidy things up?...I'll give you a hint...it rhymes with "**_lemerics_**" 😉
 
 ```typescript
 function print<T>(arr: <T>[]): void{
@@ -112,17 +113,17 @@ print<number>([6, 9, 6]);
 print([6, 9, 6]);
 ```
 
-TypeScript is super intelligent don't underestimate the compiler :dragon_face:
+TypeScript is super intelligent don't underestimate the compiler.
 
 Generally as a good "_rule of thumb_" it's best to include the type annotation when using Generics with classes & functions even though most times it can be figured out automatically.
 
-This just helps rule out any accidental bugs :beetle:
+This just helps rule out any accidental bugs.
 
 ## Generic Constraints
 
 Where does the buck stop?
 
-Right now :flushed: ...consider the below two classes.
+Right now 😳 ...consider the below two classes.
 
 ```typescript
 class Car {
@@ -169,4 +170,4 @@ printHousesOrCars<Car>([new Car(), new Car(), new Car()]);
 
 Generics can also maintain a contract by extending an interface like above. We are using a generic constraint to limit the type of arguments the function accepts.
 
-Pretty neat right :smirk:
+Pretty neat right 😏

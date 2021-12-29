@@ -7,7 +7,7 @@ tags:
     - Javascript
 ---
 
-Let's make our dev life easier with some JS related tips & tricks :smile:
+Let's make our dev life easier with some JS related tips & tricks 😀
 
 ## 1. Object Destructuring
 
@@ -64,7 +64,7 @@ const myMusicList = null;
 const music = myMusicList ?? ['Nothing!']; // ['Nothing!']
 ```
 
-Here's also a new new way of doing it in 2021 :sunglasses:
+Here's also a new new way of doing it in 2021😎
 
 ```javascript
 let myMovies = null;

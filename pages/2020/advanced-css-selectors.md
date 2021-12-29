@@ -148,4 +148,4 @@ article ~ h2 {
 }
 ```
 
-Have fun CSS-ing :sunglasses:
+Have fun CSS-ing😎

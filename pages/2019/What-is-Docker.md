@@ -7,7 +7,7 @@ tags:
     - Docker
 ---
 
-Continuous development on a project will result in it expanding (it's natural man deal with it :four_leaf_clover:), as our projects / services grow so will our code base...into a monolithic monster! Managing & monitoring these services can be a massive pain...even setting up an environment to develop on can take some time & produce unwanted brain headaches :dizzy_face:
+Continuous development on a project will result in it expanding (it's natural man deal with it), as our projects / services grow so will our code base...into a monolithic monster! Managing & monitoring these services can be a massive pain...even setting up an environment to develop on can take some time & produce unwanted brain headaches.
 
 ![What is Docker?](../assets/images/Docker-And-Kubernetes/docker.png)
 
@@ -39,9 +39,7 @@ Follow the instructions here: https://www.docker.com/get-started. **Signup**, **
 
 Once we have docker running on our machine it's time to test this puppy out! Create a new folder (call it whatever you like) & create a **dockerfile** inside. Filename is **dockerfile** no dot file extensions or anything required. Most modern IDE's will have built in support for recognising this type of file. As dockerfiles do not expose a port by default we will run this using **docker-compose**. This is pretty much a **container manager** & it comes with your Docker Desktop install by default.
 
-Enjoy the whale icon :whale:
-
-What are we going to build you ask? Let's start with a simple **Express server** setup for some super-sweet app we have in the works :sunglasses:
+What are we going to build you ask? Let's start with a simple **Express server** setup for some super-sweet app we have in the works😎
 
 Github: https://github.com/shaneiadt/docker-with-node-example
 

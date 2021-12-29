@@ -142,7 +142,7 @@ Here's an example fetching some data on button click & using the magic `$refs` p
 
 `x-for`
 
-Loop through stuff :smile:
+Loop through stuff 😀
 
 Only catch with this one is we need to use the `template` element not a regular DOM element.
 

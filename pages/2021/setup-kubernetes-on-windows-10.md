@@ -41,4 +41,4 @@ The following outlines setting up Kubernetes via the **Docker Desktop** applicat
 
 ![](/assets/images/what-is-docker/kubectl-version.png)
 
-Now we have Kubernetes installed hooray :smile:
+Now we have Kubernetes installed hooray 😀

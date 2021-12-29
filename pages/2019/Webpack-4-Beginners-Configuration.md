@@ -41,7 +41,7 @@ What else can we configure? What if we want to specify a **different** **entry**
 },
 ```
 
-If we run the above we're saying hey Webpack our entry file is now here `./src/a-different-entry-file.js` and by the way output the bundle here `./temp/new-bundle.js`. Don't worry Webpack will create the folder for us :wink:
+If we run the above we're saying hey Webpack our entry file is now here `./src/a-different-entry-file.js` and by the way output the bundle here `./temp/new-bundle.js`. Don't worry Webpack will create the folder for us 😉
 
 ## Multiple Entry Files
 
@@ -154,7 +154,7 @@ Finally update our npm scripts for these two new bundling modes.
 
 Finally to test out new `prod` script `npm run prod`...:open_hands:
 
-**:boom: We did it! :boom:**
+**:boom: We did it! 🤯**
 
 If we check our `main.js` file now it's completely minified as we've specified in our `webpack.prod.js` config file.
 

@@ -39,7 +39,7 @@ Update our npm scripts to run our dev server locally.
 
 We also need to update over dev configuration settings to tell Webpack Dev Server a few important things like **what directory to server locally**!
 
-We'll also enable [**source-maps**](https://blog.teamtreehouse.com/introduction-source-maps) out of the box too :smile:
+We'll also enable [**source-maps**](https://blog.teamtreehouse.com/introduction-source-maps) out of the box too 😀
 
 Update `webpack.config.js` to the below.
 
@@ -112,7 +112,7 @@ Update `./src/message.js` to:
 export default "Webpack is even awesomer with Webpack Dev Server!!!"
 ```
 
-Now save & you should see in your **terminal window** our **dev server re-compile** all our assets & *automagically* :sparkle: update everything being served locally.
+Now save & you should see in your **terminal window** our **dev server re-compile** all our assets & *automagically* ✨ update everything being served locally.
 
 ![](/assets/images/webpack-4-beginners/dev-server-console-2.jpg)
 
@@ -145,7 +145,7 @@ module.exports = {
 
 ## Summary
 
-In this short article we've managed to speed up our development process considerably by utilising `webpacks-dev-server`. We also configured some common settings & installed our very first plugin! *Woop Woop* :clap:
+In this short article we've managed to speed up our development process considerably by utilising `webpacks-dev-server`. We also configured some common settings & installed our very first plugin! *Woop Woop* 👏
 
 We'll dive more into webpack plugins next time to see how powerful and flexible they can make our build process.
 
