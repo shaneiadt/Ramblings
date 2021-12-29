@@ -36,8 +36,9 @@ for await (const dir of dirs) {
         const decoder = new TextDecoder("utf-8");
         const markdown = decoder.decode(await Deno.readFile(filename));
         const markup = Marked.parse(markdown);
-        const summary = markup.content.slice(0, 100);
         const { title, date, categories, tags } = markup.meta;
+
+        const summary = markup.meta?.summary || markup.content.slice(0, 100);
 
         baseMeta.push({ href: filename.replace('.md', '').replace('./pages/', ''), title, date, categories, tags, summary });
     }
